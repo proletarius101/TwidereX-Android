@@ -108,7 +108,7 @@ android {
             if (hasSigningProps) {
                 signingConfig signingConfigs.twidere
             }
-            minifyEnabled false
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
