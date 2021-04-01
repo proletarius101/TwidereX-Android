@@ -61,6 +61,7 @@ fun NetworkImage(
         GlideImage(
             data = data,
             modifier = modifier,
+            fadeIn = true
         ) { imageState ->
             when (imageState) {
                 is ImageLoadState.Success -> {
